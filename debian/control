@@ -1,0 +1,18 @@
+Source: libtest-simple-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl (>= 5.6)
+Maintainer: Nathaniel Nutter <nnutter@genome.wustl.edu>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/Test-Simple/
+
+Package: libtest-simple-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, perl (>= 5.6)
+Description: Basic utilities for writing tests.
+ Test::Simple and Test::More have proven to be popular testing modules, but
+ they're not always flexible enough. Test::Builder provides a building block
+ upon which to write your own test libraries which can work together.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
